@@ -1,189 +1,190 @@
 body {
-background: linear-gradient(to bottom, white, #00AFEE);
+  background: linear-gradient(to bottom, white, #00AFEE);
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-	font-family: Brush Script MT;
-	font-size: 45px;
-	color: navy;
-	display: flex;
-	justify-content: center;
-		
+  font-family: Brush Script MT;
+  font-size: 45px;
+  color: navy;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
+
 .container {
-	position: relative;
-	padding: 2em;
+  position: relative;
+  padding: 2em;
 }
-	
-}
-/*#header-img {
-	height: 6em;
-	margin-left: auto;
-	padding-right: 2em;
-	padding-bottom:1em;
-	margin-top: -6.5em;
-	display: flex;
-	border-radius: 15px;
-}*/
-.banner {
-	/*background-image: url('2215.jpg');*/
-}
+
 .menu {
-	border: 2px solid #0492C2;
-	border-radius: 15px;
-	background-color: #e3f2fd; 
-	padding: 1em 15em;
-	font-size: 24px;
-	font-family: Garamond;
-	display:flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 1em;
-	
+  border: 2px solid #0492C2;
+  border-radius: 15px;
+  background-color: #e3f2fd;
+  padding: 1em 2em;
+  font-size: 24px;
+  font-family: Garamond;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1em auto;
+  max-width: 90%;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 a:hover {
-	font-size: 30px;
-	font-style: bold;
-	color: #061094;
+  font-size: 30px;
+  font-weight: bold;
+  color: #061094;
 }
 
+.homepage,
+.about-me,
+.my-skills,
+.my-resume,
+.contact-info {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
 
-.homepage, .about-me, .my-skills,.my-resume, .contact-info {
-	min-height: 100vh;
-}	
 h2 {
-	font-family: Brush Script MT;
-	font-size: 30px;
-	margin-bottom:-.5em;
+  font-family: Brush Script MT;
+  font-size: 30px;
+  margin-bottom: -0.5em;
+  text-align: center;
 }
+
 hr {
-	border: none;
-	height: .2em;
-	background-color: navy;
-	
+  border: none;
+  height: 0.2em;
+  background-color: navy;
+  margin: 1em auto;
+  width: 80%;
 }
-#welcome-image {
-	width: 30em;
-	height: auto;
-	padding-left: 10em;
-}	
-#workdesk {
-	width: 25em;
-	height: auto;
-	padding-right: 5em;
-	padding-left: 50em;
-	margin-top: -20em;
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
+
+#welcome-image,
+#workdesk,
+#me,
+#security,
+#network,
+#icons-pic,
+#contact-pic {
+  margin: 1em auto;
+  display: block;
+}
+
 #intro {
-	padding-right: 4em;
-	text-align: right;
-	font-family: New Courier;
-	font-size: 24px;
-	font-style: italic;
-	
+  padding: 1em;
+  text-align: center;
+  font-family: Courier New;
+  font-size: 24px;
+  font-style: italic;
 }
-#me {
-	width: 20em;
-	height: auto;
-}
-#security {
-	width: 15em;
-	height: auto;
-	position: relative;
-	z-index: 10;
-	margin-top: -30em;
-	padding-bottom: 5em;
-}
-#network {
-	width: 15em;
-	height: auto;
-	
-	z-index:11;
-	margin-top: -28em;
-	padding-bottom: 5em;
-	margin-left: 55em;
-}
+
 #about-text {
-	padding: 2em 4em;
-	border: 1em solid gold;
-	border-radius: 2em;
-	font-family: "New Courier", monospace;
-	font-size: 24px;
-	text-align: center;
-	max-width: 60em;
-	margin-left:15em;
-margin-right: 15em;	
+  padding: 2em;
+  border: 1em solid gold;
+  border-radius: 2em;
+  font-family: Courier New;
+  font-size: 24px;
+  text-align: center;
+  max-width: 60em;
+  margin: 2em auto;
 }
+
 .resume-info {
-	font-family: New Courier;
-	font-size: 20px;
-	margin-left: 5em;
-	margin-right: 5em;
+  font-family: Courier New;
+  font-size: 20px;
+  margin: 1em auto;
+  max-width: 800px;
 }
-.resume-head{
-	font-family: New Courier;
-	font-size: 20px;
-	font-style: bold;
-	text-align: center;
+
+.resume-head {
+  font-family: Courier New;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
-#icons-pic {
-	
-	width:15em;
-	height:auto;
-	float: right;
-	margin-right: 15em;
-	margin-left: 4em;
-	margin-top: -15em;
-}
-.contact-info{
-	font-family: New Courier;
-	font-size: 30px;
-	text-align: center;
-	
-}
-#contact-pic{
-	width:20em;
-	height: auto;
-}
-	
+
 .project-header {
-	font-family: New Courier;
-	font-size: 20px;
-	font-style: italic;
-	text-align: center;
+  font-family: Courier New;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
 }
+
 .projects {
-	font-family: New Courier;
-	font-size: 18px;
-	margin-top: -.5em;
-	text-align: center;
+  font-family: Courier New;
+  font-size: 18px;
+  margin-top: -0.5em;
+  text-align: center;
 }
+
+.contact-info {
+  font-family: Courier New;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2em;
+}
+
 .return-home {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-	text-align: right;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: right;
 }
+
 .return {
-	display: inline-block;
-	font-family: Courier New;
+  display: inline-block;
+  font-family: Courier New;
 }
 
 .icon-list {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
 }
 
 .icon-list li {
-    margin: 10px 0;
-    font-size: 20px;
+  margin: 10px 0;
+  font-size: 20px;
 }
 
 .icon-list li i {
-    margin-right: 10px;
-    color: #264de4; 
+  margin-right: 10px;
+  color: #264de4;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    padding: 1em;
+    font-size: 20px;
+  }
+
+  #about-text,
+  .resume-info {
+    padding: 1em;
+    font-size: 18px;
+  }
+
+  #intro {
+    font-size: 20px;
+  }
+
+  .contact-info {
+    font-size: 24px;
+  }
 }
