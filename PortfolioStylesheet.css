@@ -50,7 +50,12 @@ a:hover {
 .my-resume,
 .contact-info {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem 1rem;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -69,20 +74,10 @@ hr {
 }
 
 img {
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
   display: block;
-}
-
-#welcome-image,
-#workdesk,
-#me,
-#security,
-#network,
-#icons-pic,
-#contact-pic {
   margin: 1em auto;
-  display: block;
 }
 
 #intro {
@@ -174,6 +169,10 @@ img {
     font-size: 20px;
   }
 
+  img {
+    max-width: 120px;
+  }
+
   #about-text,
   .resume-info {
     padding: 1em;
@@ -186,5 +185,11 @@ img {
 
   .contact-info {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 90px;
   }
 }
