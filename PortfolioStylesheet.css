@@ -1,0 +1,189 @@
+body {
+background: linear-gradient(to bottom, white, #00AFEE);
+}
+
+.logo {
+	font-family: Brush Script MT;
+	font-size: 45px;
+	color: navy;
+	display: flex;
+	justify-content: center;
+		
+}
+.container {
+	position: relative;
+	padding: 2em;
+}
+	
+}
+/*#header-img {
+	height: 6em;
+	margin-left: auto;
+	padding-right: 2em;
+	padding-bottom:1em;
+	margin-top: -6.5em;
+	display: flex;
+	border-radius: 15px;
+}*/
+.banner {
+	/*background-image: url('2215.jpg');*/
+}
+.menu {
+	border: 2px solid #0492C2;
+	border-radius: 15px;
+	background-color: #e3f2fd; 
+	padding: 1em 15em;
+	font-size: 24px;
+	font-family: Garamond;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1em;
+	
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	font-size: 30px;
+	font-style: bold;
+	color: #061094;
+}
+
+
+.homepage, .about-me, .my-skills,.my-resume, .contact-info {
+	min-height: 100vh;
+}	
+h2 {
+	font-family: Brush Script MT;
+	font-size: 30px;
+	margin-bottom:-.5em;
+}
+hr {
+	border: none;
+	height: .2em;
+	background-color: navy;
+	
+}
+#welcome-image {
+	width: 30em;
+	height: auto;
+	padding-left: 10em;
+}	
+#workdesk {
+	width: 25em;
+	height: auto;
+	padding-right: 5em;
+	padding-left: 50em;
+	margin-top: -20em;
+}
+#intro {
+	padding-right: 4em;
+	text-align: right;
+	font-family: New Courier;
+	font-size: 24px;
+	font-style: italic;
+	
+}
+#me {
+	width: 20em;
+	height: auto;
+}
+#security {
+	width: 15em;
+	height: auto;
+	position: relative;
+	z-index: 10;
+	margin-top: -30em;
+	padding-bottom: 5em;
+}
+#network {
+	width: 15em;
+	height: auto;
+	
+	z-index:11;
+	margin-top: -28em;
+	padding-bottom: 5em;
+	margin-left: 55em;
+}
+#about-text {
+	padding: 2em 4em;
+	border: 1em solid gold;
+	border-radius: 2em;
+	font-family: "New Courier", monospace;
+	font-size: 24px;
+	text-align: center;
+	max-width: 60em;
+	margin-left:15em;
+margin-right: 15em;	
+}
+.resume-info {
+	font-family: New Courier;
+	font-size: 20px;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+.resume-head{
+	font-family: New Courier;
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+}
+#icons-pic {
+	
+	width:15em;
+	height:auto;
+	float: right;
+	margin-right: 15em;
+	margin-left: 4em;
+	margin-top: -15em;
+}
+.contact-info{
+	font-family: New Courier;
+	font-size: 30px;
+	text-align: center;
+	
+}
+#contact-pic{
+	width:20em;
+	height: auto;
+}
+	
+.project-header {
+	font-family: New Courier;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+.projects {
+	font-family: New Courier;
+	font-size: 18px;
+	margin-top: -.5em;
+	text-align: center;
+}
+.return-home {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	text-align: right;
+}
+.return {
+	display: inline-block;
+	font-family: Courier New;
+}
+
+.icon-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icon-list li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.icon-list li i {
+    margin-right: 10px;
+    color: #264de4; 
+}
